@@ -1,0 +1,56 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "FIGHTING GEO!",
+    "name": "Geo fighters BETA",
+    "uuid": "38f77e99-d272-4081-b60f-a9317d666676",
+    "version": [
+      1,
+      0,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      20,
+      0
+    ]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "0c7be596-fa54-45cc-94fd-754153601f84",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "script",
+      "language":"javascript",
+      "uuid": "fa09781a-07e2-446f-8096-001f3ec02625",
+      "entry": "scripts/main.js",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+
+  "dependencies": [
+      {
+          "module_name": "@minecraft/server",
+          "version": "1.14.0-beta"
+      },
+      {
+        "module_name": "@minecraft/server-ui",
+        "version": "1.1.0"
+      }
+  ],
+  "metadata": {
+    "authors": [
+      "HogWar554"
+    ]
+  }
+}
