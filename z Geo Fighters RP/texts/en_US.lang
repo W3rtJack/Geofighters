@@ -1,0 +1,21 @@
+tile.genshin:sunsettia.name=Sunsettia
+tile.genshin:mint.name=Mint
+tile.genshin:snapdragon.name=Snapdragon
+tile.genshin:dandelion.name=Dandelion
+tile.genshin:mist_flower.name=Mist Flower
+tile.genshin:flaming_flower.name=Flaming Flower
+tile.genshin:apple.name=Hanging Apple
+tile.genshin:berry_bush.name=Berry Bush
+tile.genshin:small_lamp_grass.name=Small Lamp Grass
+tile.genshin:wolfhook.name=Wolfhook
+
+
+item.genshin:sunsettia_item=Sunsettia
+item.genshin:mint_item=Mint
+item.genshin:snapdragon_item=Snapdragon
+item.genshin:dandelion_item=Dandelion
+item.genshin:mist_flower_item=Mist Flower
+item.genshin:flaming_flower_item=Flaming Flower
+item.genshin:berry=Berry
+item.genshin:small_lamp_grass_item=Small Lamp Grass
+item.genshin:wolfhook_item=Wolfhook

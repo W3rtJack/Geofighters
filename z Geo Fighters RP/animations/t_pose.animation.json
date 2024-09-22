@@ -1,0 +1,29 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.player.t_pose": {
+			"animation_length": 0.25,
+			"override_previous_animation": true,
+			"bones": {
+				"head": {
+					"rotation": [0, 0, 0]
+				},
+				"body": {
+					"rotation": [0, 0, 0]
+				},
+				"leftArm": {
+					"rotation": [0, 180, -90]
+				},
+				"rightArm": {
+					"rotation": [0, 180, 90]
+				},
+				"leftLeg": {
+					"rotation": [0, 0, 0]
+				},
+				"rightLeg": {
+					"rotation": [0, 0, 0]
+				}
+			}
+		}
+	}
+}

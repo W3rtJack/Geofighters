@@ -1,0 +1,13 @@
+{
+    "resource_pack_name": "vanilla",
+    "texture_name": "atlas.items",
+    "texture_data": {
+        "wood_sword": { "textures": "textures/items/wood_sword"},
+        "stone_sword": { "textures": "textures/items/stone_sword"},
+        "iron_sword": { "textures": "textures/items/iron_sword"},
+        "gold_sword": { "textures": "textures/items/gold_sword"},
+        "diamond_sword": { "textures": "textures/items/diamond_sword"},
+        "netherite_sword": { "textures": "textures/items/netherite_sword"},
+        "dirt_helmet": { "textures": "textures/blocks/dirt"}
+    }
+}

@@ -1,0 +1,35 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "The best fighting addon. Definitely",
+    "name": "Geo Fighters BETA",
+    "uuid": "95337f8f-7b03-47d9-9104-f5369232eccb",
+    "version": [
+      1,
+      0,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      14,
+      0
+    ]
+  },
+  "modules": [
+    {
+      "description": "",
+      "type": "resources",
+      "uuid": "e2396455-7e4a-47b7-bf8d-15c6d252de8e",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "metadata": {
+    "authors": [
+      "Hog"
+    ]
+  }
+}

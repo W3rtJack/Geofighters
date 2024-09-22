@@ -1,0 +1,20 @@
+{
+  "materials": {
+    "version": "1.0.0",
+
+    "ny_emissive:entity_nocull": {
+      "+states": [
+        "InvertCulling"
+      ],
+      "+defines": [ "USE_UV_ANIM","USE_EMISSIVE"],
+      "+samplerStates": [
+        {
+          "samplerIndex": 0,
+          "textureWrap": "Repeat"
+        }
+      ],
+      "msaaSupport": "Both",
+      "depthFunc": "GreaterEqual"
+    }
+  }
+}

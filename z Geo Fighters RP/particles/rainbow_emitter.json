@@ -1,0 +1,56 @@
+{
+  "format_version": "1.10.0",
+  "particle_effect": {
+    "description": {
+      "identifier": "hog:rainbow_emitter",
+      "basic_render_parameters": {
+        "material": "particles_alpha",
+        "texture": "textures/particles/sparkle"
+      }
+    },
+    "components": {
+      "minecraft:emitter_rate_instant": {
+          "num_particles": 25
+      },
+      "minecraft:emitter_lifetime_once": {
+        "active_time": 2
+      },
+      "minecraft:emitter_shape_point": {
+        "offset": [ 0.0, "Math.random(-0.9, -0.5)", 0.0 ],
+        "direction": [ "Math.random(-0.75, 0.75)", "Math.random(0.0, 1.0)", "Math.random(-0.75, 0.75)" ]
+      },
+      "minecraft:particle_motion_dynamic": {
+        "linear_acceleration": [ 0, -4.0, 0 ],
+        "linear_drag_coefficient": 10
+      },
+      "minecraft:particle_initial_speed": "Math.random(10.0, 20.0)",
+      "minecraft:particle_lifetime_expression": {
+        "max_lifetime": "6.0 / (Math.random(0.0, 16.0) + 12.0)"
+      },
+      "minecraft:particle_appearance_billboard": {
+        "size": [ "0.1-(v.particle_age/v.particle_lifetime)*0.1", "0.1-(v.particle_age/v.particle_lifetime)*0.1" ],
+        "facing_camera_mode": "rotate_xyz",
+        "uv": {
+          "texture_width": 6,
+          "texture_height": 6,
+          "flipbook": {
+            "base_UV": [ 0, 0 ],
+            "size_UV": [ 5, 5 ],
+            "frames_per_second": 1,
+            "max_frame": 1,
+            "stretch_to_lifetime": true,
+            "loop": false
+          }
+        }
+      },
+      "minecraft:particle_appearance_tinting": {
+        "color": [
+          "variable.particle_random_1",
+          "variable.particle_random_2",
+          "variable.particle_random_3",
+          1.0
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+    "format_version": "1.10.0",
+    "particle_effect": {
+        "description": {
+            "identifier": "hog:white_sparkle",
+            "basic_render_parameters": {
+                "material": "particles_add",
+                "texture": "textures/particles/sparkle"
+            }
+        },
+        "components": {
+            "minecraft:emitter_rate_instant": {
+                "num_particles": 100
+            },
+            "minecraft:emitter_shape_sphere": {
+                "offset": [ 0, 0, 0 ],
+                "direction": "outwards",
+                "radius": 1
+              },
+            "minecraft:particle_initial_speed": "Math.random(0.2,1)",
+            "minecraft:emitter_lifetime_once": {
+                "active_time": "Math.random(1.5,4)"
+            },
+            "minecraft:particle_motion_dynamic": {
+              "linear_acceleration": [ 0, 0, 0 ],
+              "linear_drag_coefficient": 0.05
+            },
+            "minecraft:particle_appearance_billboard": {
+                "size": [ "0.25*(1-(v.particle_age/v.particle_lifetime))", "0.25*(1-(v.particle_age/v.particle_lifetime))" ],
+                "facing_camera_mode": "lookat_xyz",
+                "uv": {
+                    "texture_width": 5,
+                    "texture_height": 5,
+                    "uv": [0,0],
+                    "uv_size": [5,5]
+                }
+            },
+            "minecraft:particle_appearance_tinting": {
+              "color": [ "(variable.particle_random_1 * 0.4 + 0.6)", "(variable.particle_random_1 * 0.4 + 0.6)", "(variable.particle_random_1 * 0.4 + 0.6)", 1.0 ]
+            }
+        }
+    }
+}

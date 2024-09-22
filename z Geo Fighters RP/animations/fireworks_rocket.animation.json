@@ -1,0 +1,62 @@
+{
+	"format_version" : "1.8.0",
+	"animations" : {
+		"animation.fireworks_rocket.move" : {
+			"loop" : true,
+			"bones" : {
+				"body" : {
+					"position" : [ 0.0, -3.5, 0.0 ],
+					"rotation" : [ "query.target_x_rotation", "query.target_y_rotation", 0.0 ],
+					"scale" : 2
+				}
+			}
+		},
+		"animation.minecart.scale" : {
+			"loop" : true,
+			"bones" : {
+				"bottom" : {
+					"scale" : 0
+				}
+			}
+		},
+		"animation.hide.scale" : {
+			"loop" : true,
+			"bones" : {
+				"body" : {
+					"scale" : 0
+				},
+				"head" : {
+					"scale" : 0
+				},
+				"rightArm" : {
+					"scale" : 0
+				},
+				"rightLeg" : {
+					"scale" : 0
+				},
+				"leftLeg" : {
+					"scale" : 0
+				}
+			}
+		},
+		"animation.block.scale" : {
+			"loop" : true,
+			"bones" : {
+				"body" : {
+					"scale" : 2.5
+				}
+			}
+		},
+		"animation.fire.scale" : {
+			"loop" : true,
+			"bones" : {
+				"body" : {
+					"scale" : 5
+				},
+				"rightarm" : {
+					"rotation" : [ "-this - 100", "-this", "-this" ]
+				}
+			}
+		}
+	}
+}

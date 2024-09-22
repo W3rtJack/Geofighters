@@ -1,0 +1,18 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "hog:floating_text",
+			"materials": {
+				"default": "skeleton"
+			},
+			"geometry": {
+				"default": "geometry.blank"
+			},
+			"render_controllers": ["controller.render.skeleton"],
+			"textures": {
+				"default": "textures/entity/blank"
+			}
+		}
+	}
+}
